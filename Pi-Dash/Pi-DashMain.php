@@ -188,5 +188,11 @@
 	<h2 id="RecentThingsHeader">Recent Things:</h2>
 	<?php echo $ThingsList; ?>
 </div>
+<script src='JS/move.min.js'></script>
+<script>
+	move('#DateAndTimeDiv')
+	.translate(300, 80)
+	.end();
+</script>
 </body>
 </html>
